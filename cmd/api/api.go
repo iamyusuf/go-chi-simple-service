@@ -13,7 +13,8 @@ import (
 )
 
 type config struct {
-	addr string
+	addr        string
+	environment string
 }
 
 type application struct {
